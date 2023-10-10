@@ -14,7 +14,7 @@ body {
 .container {
   background-color: white;
   padding: 35px 50px;
-  width:70%;
+  width: 50%;
   min-width: 420px;
   transform: translate(-50%, -50%);
   position: absolute;
@@ -22,50 +22,30 @@ body {
   top: 50%;
   border-radius: 13px;
   box-shadow: 20px 30px 25ps rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
   font-size: 30px;
   color: black;
-}
-
-form {
-  width: 100%;
-  position: relative;
-  margin: 30px auto 0 auto;
-}
-
-.row {
-  width: 50%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 20px 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 label {
   color: black;
-  font-size: 14px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
-textarea,
 input {
-  width: 100%;
+   
   font-weight: 400;
   padding: 8px 10px;
   border-radius: 5px;
   border: 1.2px solid rgb(150, 127, 84);
-  margin-top: 5px;
-}
-
-textarea {
-  resize: none;
-}
-
-textarea:focus,
-input:focus {
-  outline: none;
-  border-color: rgb(83, 71, 71);
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 button {
@@ -75,7 +55,12 @@ button {
   color: white;
   border-radius: 3px;
   margin: 0 auto;
-  width: 100px;
+  width: 120px;
+  margin-top: 10px;
+  font-size: 15px;
 }
 
-
+input:focus {
+  outline: none;
+  border-color: rgb(83, 71, 71);
+}
