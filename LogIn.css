@@ -23,11 +23,11 @@ body {
   box-shadow: 20px 30px 25ps rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: space-between;
-  position: relative; 
+  position: relative;
 }
 
 .container::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 10%;
   bottom: 10%;
@@ -95,18 +95,17 @@ input:focus {
   border-color: rgb(133, 115, 115);
 }
 
-@media(max-width: 1080px){
-
-  .container div{
+@media (max-width: 1080px) {
+  .container div {
     width: 100%;
   }
 
-  h1{
+  h1 {
     font-size: 25px;
     text-align: center;
   }
-  
-  .container::before{
+
+  .container::before {
     display: none;
   }
 
@@ -114,12 +113,11 @@ input:focus {
     text-align: center; /* Center text on smaller screens */
     left: 50%;
     -ms-transform: translateX(-50%);
-    transform: translateX(-50%)
+    transform: translateX(-50%);
     margin-top: 20px; /* Add some spacing */
   }
 
-  input{
+  input {
     width: 100%;
   }
-
 }
