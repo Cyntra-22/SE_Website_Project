@@ -15,7 +15,6 @@ body {
   background-color: white;
   padding: 35px 50px;
   width: 50%;
-  min-width: 420px;
   transform: translate(-50%, -50%);
   position: absolute;
   left: 50%;
@@ -24,6 +23,17 @@ body {
   box-shadow: 20px 30px 25ps rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: space-between;
+  position: relative; 
+}
+
+.container::before {
+  content: '';
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+  left: 50%;
+  width: 1px; /* Adjust the width as needed */
+  background-color: rgb(96, 93, 93); /* Adjust the color as needed */
 }
 
 h1 {
@@ -39,7 +49,6 @@ label {
 }
 
 input {
-   
   font-weight: 400;
   padding: 8px 10px;
   border-radius: 5px;
@@ -50,17 +59,67 @@ input {
 
 button {
   border: none;
-  padding: 10px 20px;
   background-color: orangered;
   color: white;
   border-radius: 3px;
   margin: 0 auto;
-  width: 120px;
   margin-top: 10px;
   font-size: 15px;
 }
 
+.button {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.button2 {
+  width: 200px;
+  padding: 10px 10px;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.center_vertical {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 input:focus {
   outline: none;
-  border-color: rgb(83, 71, 71);
+  border-color: rgb(133, 115, 115);
+}
+
+@media(max-width: 1080px){
+
+  .container div{
+    width: 100%;
+  }
+
+  h1{
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .container::before{
+    display: none;
+  }
+
+  .center_vertical {
+    text-align: center; /* Center text on smaller screens */
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%)
+    margin-top: 20px; /* Add some spacing */
+  }
+
+  input{
+    width: 100%;
+  }
+
 }
