@@ -1,0 +1,46 @@
+.img_overlay {
+  width: 100%;
+  height: 40vh;
+  background: linear-gradient(
+      90deg,
+      rgba(92, 91, 88, 0.5),
+      rgba(139, 138, 134, 0.5)
+    ),
+    url("https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    
+}
+
+p, h1 {
+  margin: 0px;
+  padding: 0px;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+}
+
+.center {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  letter-spacing: 0.2em;
+ 
+}
+
+.question_container{
+    height: 100vh;
+    
+}
