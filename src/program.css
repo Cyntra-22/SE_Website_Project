@@ -1,0 +1,32 @@
+.curriculum {
+  max-width: 100%;
+}
+
+.content {
+  padding-top: 40px;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.SE_year {
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.photo {
+  margin-top: 3rem;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 80px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.photo img {
+  width: 70%;
+  border: 0.5px solid rgb(253, 245, 228);
+  box-shadow: 2px 3px 5px #c5c0c0;
+}
+
