@@ -1,16 +1,40 @@
 .img_overlay {
   width: 100%;
-  height: 60vh;
+  height: 57vh;
   background: linear-gradient(
       90deg,
-      rgba(92, 91, 88, 0.5),
-      rgba(139, 138, 134, 0.5)
+      rgba(11, 11, 10, 0.6),
+      rgba(10, 10, 9, 0.6)
     ),
-    url("https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg");
+    url("https://www.kmitl.ac.th/sites/default/files/styles/cover_image/public/2022-08/Sattawat1_1.jpg?itok=Z5Bu_jeq");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 40px;
+}
+
+p{
+    color: white;
+    line-height: 2;
+}
+
+h1{
+    color: white;
+}
+
+hr{
+    width: 60%;
+}
+.center p{
+    margin-top: 25px;
+}
+.center {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  letter-spacing: 0.2em;
 }
 
 .gallery{
