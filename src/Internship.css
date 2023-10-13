@@ -1,28 +1,17 @@
-.container {
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 30px;
-  margin-bottom: 80px;
+.img_overlay {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(
+      90deg,
+      rgba(92, 91, 88, 0.5),
+      rgba(139, 138, 134, 0.5)
+    ),
+    url("https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 40px;
 }
-
-.internship {
-  margin-top: 50px;
-  display: flex;
-  justify-content:space-between;
-  line-height: 2;
-}
-
-.text{
-    width: 50%;
-}
-
-img {
-  width: 300px;
-  border: 0.5px solid rgb(253, 245, 228);
-  box-shadow: 2px 3px 5px #c5c0c0;
-}
-
 
 .gallery{
     width: 900px;
@@ -31,7 +20,7 @@ img {
 }
 
 .gallery div{
-    width: 100%;
+    width: 75%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
@@ -40,7 +29,7 @@ img {
 }
 
 .gallery div img{
-    width: 100%;
+    width: 200px;
     filter: grayscale(100%);
     transition: transform 0.5s;
 }
@@ -53,7 +42,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10% auto;
+    margin: 0 auto;
 }
 
 #backBtn, #nextBtn{
@@ -67,3 +56,4 @@ img {
     cursor: pointer;
     transform: scale(1.1);
 }
+
