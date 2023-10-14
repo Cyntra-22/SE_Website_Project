@@ -11,6 +11,7 @@ body {
     display: flex;
     width: 100%;
     position: fixed;
+    z-index: 99;
 }
 .SELogo{
     flex: 1;
