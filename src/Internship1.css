@@ -70,6 +70,7 @@
   position: relative;
   box-shadow: 2px 3px 10px #c5c0c0;
   border-radius: 50%;
+  z-index: 900;
 }
 
 .paraSE {
@@ -78,8 +79,7 @@
   left: 40%;
   position: relative;
   width: 50%;
-  font-size: 17px;
-  
+  font-size: 17px; 
 }
 
 
@@ -219,6 +219,10 @@ a {
   .timetable_img h3{
   padding-top: 25px;
   font-size: 1rem;
+  }
+
+  .img_SE img{
+    display: none;
   }
 
 }
