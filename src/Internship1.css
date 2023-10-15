@@ -18,11 +18,7 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.parallaxOverlay1 {
-  width: 100%;
-  height: 700px;
-  background-color: rgba(0, 0, 0, 0.7);
-}
+
 
 
 .parallax1 {
@@ -30,7 +26,7 @@
   background-image: url("https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RiCnLEbDshIAX_GOhiP&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfAoMLeSw9wWjf4iwrJ6XV9qtOEpQbBusrcmPT8ewl8Rkg&oe=652E3E30");
 
   /* Set a specific height */
-  min-height: 700px;
+  min-height: 400px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -39,12 +35,18 @@
   background-size: cover;
 }
 
+.parallaxOverlay1 {
+  width: 100%;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
 .parallax2 {
   /* The image used */
   background-image: url("https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RiCnLEbDshIAX_GOhiP&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfAoMLeSw9wWjf4iwrJ6XV9qtOEpQbBusrcmPT8ewl8Rkg&oe=652E3E30");
 
   /* Set a specific height */
-  min-height: 700px;
+  min-height: 900px;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -55,31 +57,10 @@
 
 .parallaxOverlay2 {
   width: 100%;
-  height: 700px;
-  background-color: rgba(0, 0, 0, 0.7);
+  height: 900px;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
-
-
-.parallax3 {
-  /* The image used */
-  background-image: url("https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RiCnLEbDshIAX_GOhiP&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfAoMLeSw9wWjf4iwrJ6XV9qtOEpQbBusrcmPT8ewl8Rkg&oe=652E3E30");
-
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallaxOverlay3 {
-  width: 100%;
-  height: 500px;
-  background-color: rgba(0, 0, 0, 0.7);
-}
 
 
 .img_SE img {
@@ -132,16 +113,33 @@ blockquote:after {
 
 table, td, th {
   border: 1px solid;
+  padding: 10px;
 }
 
-table {
+table{
   width: 100%;
   border-collapse: collapse;
+  
+  
 }
 
 a {
   text-decoration: none;
   color:rgb(242, 168, 8);
+}
+
+.timetable{
+  color: white;
+  font-size: 16px;
+  line-height: 2;
+  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+
+.timetable h3{
+  text-align: center;
 }
 
 
