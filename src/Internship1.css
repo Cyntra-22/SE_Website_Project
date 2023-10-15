@@ -154,7 +154,7 @@ a {
   font-size: 1.5rem;
 }
 
-
+/*Ipad*/
 @media screen and (max-width: 900px){
   .img_SE img{
     width: 250px;

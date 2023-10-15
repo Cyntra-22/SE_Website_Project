@@ -116,7 +116,7 @@ i{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   .center h1{
     font-size: 35px;
   }
@@ -136,4 +136,19 @@ i{
   .answer p{
     font-size: 13px;
 }
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .category{
+    font-size: 25px;
+    width: 70%;
+  }
+
+  .center h1{
+    font-size:50px;
+  }
+
+  .center p{
+    font-size: 30px;
+  }
 }
