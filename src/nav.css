@@ -92,6 +92,7 @@ body {
     border-bottom: 3px solid transparent;
     font-size: 12px;
     font-family: 'Mitr', sans-serif;
+    margin-top: 0;
 }
 .program-content {
     display: none;
@@ -132,6 +133,7 @@ body {
     border-bottom: 3px solid transparent;
     font-size: 12px;
     font-family: 'Mitr', sans-serif;
+    margin-top: 0;
 }
 .news-content{
     display: none;
