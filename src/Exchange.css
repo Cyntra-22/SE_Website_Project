@@ -65,7 +65,6 @@
   position: relative;
   box-shadow: 2px 3px 10px #c5c0c0;
   border-radius: 50%;
-
 }
 
 .paraSE {
@@ -157,7 +156,14 @@ a {
     top: -490px;
   }
   .paraSE h3 {
-    font-size: 14px;
+    font-size: 9px;
+    line-height: 2;
+  }
+
+  .requirement{
+    font-size: 13px;
+    padding-top: 10px
+}
   }
 
   .parallaxOverlay {
@@ -169,11 +175,11 @@ a {
   }
 
   .parallaxOverlay2 {
-    height: 1100px;
+    height: 750px;
   }
 
   .parallax2 {
-    min-height: 1100px;
+    min-height: 750px;
   }
 
   .timetable_img {
@@ -213,8 +219,6 @@ a {
     font-size: 1rem;
   }
 
-  
-
   .paraSE {
     color: rgb(115, 102, 75);
     left: 40%;
@@ -226,12 +230,11 @@ a {
     transform: translate(-40%, 210%);
   }
 
-  .cover_img img{
+  .cover_img img {
     display: none;
   }
 
-  .img_SE img{
+  .img_SE img {
     transform: translate(15%, 120%);
   }
-
 }
