@@ -74,7 +74,7 @@
   left: 40%;
   position: relative;
   width: 50%;
-  font-size: 17px;
+  font-size: 2px;
 }
 
 blockquote {
@@ -82,7 +82,7 @@ blockquote {
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-bottom: -30px;
   quotes: "\201C""\201D""\2018""\2019";
-  font-size: 17px;
+  font-size: 14px;
 }
 
 blockquote:before {
