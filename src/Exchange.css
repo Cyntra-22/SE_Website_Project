@@ -163,11 +163,8 @@ a {
 
   .requirement{
     font-size: 13px;
-    padding-top: 10px
 }
-  }
-
-  .parallaxOverlay {
+ .parallaxOverlay {
     height: 450px;
   }
 
@@ -186,6 +183,11 @@ a {
   .timetable_img {
     display: none;
   }
+  }
+
+ 
+
+
 
 
 @media screen and (min-width: 900px) {
@@ -195,8 +197,6 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-
-
 
   .requirement {
     font-size: 11px;
