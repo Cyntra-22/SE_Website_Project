@@ -1,6 +1,6 @@
 .parallax {
   /* The image used */
-  background-image: url("https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RiCnLEbDshIAX_GOhiP&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfAoMLeSw9wWjf4iwrJ6XV9qtOEpQbBusrcmPT8ewl8Rkg&oe=652E3E30");
+  background-image: url("https://scontent.fbkk12-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RyeDsVYiDWsAX9RGj96&_nc_ht=scontent.fbkk12-4.fna&oh=00_AfABRGZaUmRA982KCFqa8izfb2s60Q0bbR7ZIgAAkwGNYg&oe=65382170");
 
   /* Set a specific height */
   min-height: 800px;
@@ -20,7 +20,7 @@
 
 .parallax1 {
   /* The image used */
-  background-image: url("https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RiCnLEbDshIAX_GOhiP&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfAoMLeSw9wWjf4iwrJ6XV9qtOEpQbBusrcmPT8ewl8Rkg&oe=652E3E30");
+  background-image: url("https://scontent.fbkk12-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RyeDsVYiDWsAX9RGj96&_nc_ht=scontent.fbkk12-4.fna&oh=00_AfABRGZaUmRA982KCFqa8izfb2s60Q0bbR7ZIgAAkwGNYg&oe=65382170");
 
   /* Set a specific height */
   min-height: 400px;
@@ -40,7 +40,7 @@
 
 .parallax2 {
   /* The image used */
-  background-image: url("https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RiCnLEbDshIAX_GOhiP&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfAoMLeSw9wWjf4iwrJ6XV9qtOEpQbBusrcmPT8ewl8Rkg&oe=652E3E30");
+  background-image: url("https://scontent.fbkk12-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RyeDsVYiDWsAX9RGj96&_nc_ht=scontent.fbkk12-4.fna&oh=00_AfABRGZaUmRA982KCFqa8izfb2s60Q0bbR7ZIgAAkwGNYg&oe=65382170");
 
   /* Set a specific height */
   min-height: 1100px;
@@ -65,7 +65,6 @@
   position: relative;
   box-shadow: 2px 3px 10px #c5c0c0;
   border-radius: 50%;
-
 }
 
 .paraSE {
@@ -76,8 +75,6 @@
   width: 50%;
   font-size: 17px;
 }
-
-
 
 blockquote {
   border: none;
@@ -154,24 +151,22 @@ a {
   width: 65%;
   margin: 0 auto;
   padding-top: 30px;
-  align-items: center;
   display: flex;
   flex-direction: column;
   margin-bottom: 80px;
 }
 
-.faq{
-    
-    margin-top: 1rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid rgb(23, 22, 22);
-    cursor: pointer;
+.faq {
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgb(23, 22, 22);
+  cursor: pointer;
 }
 
-.question{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .font_question {
@@ -179,40 +174,39 @@ a {
   font-size: 19px;
 }
 
-
-.answer{
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 1.4s ease-in-out;
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1.4s ease-in-out;
 }
-.answer p{
-    color: black;
-    font-size: 17px;
-}
-
-.faq.active .answer{
-    max-height: 300px;
-    animation: fade 1s ease-in-out;
+.answer p {
+  color: black;
+  font-size: 17px;
 }
 
-.faq.active i{
-    transform: rotate(180deg);
+.faq.active .answer {
+  max-height: 300px;
+  animation: fade 1s ease-in-out;
 }
 
-i{
-    transition: transform .5s ease-in;
+.faq.active i {
+  transform: rotate(180deg);
 }
 
-@keyframes fade{
-    from{
-        opacity: 0;
-        transform: translateY(-10px);
-    }
+i {
+  transition: transform 0.5s ease-in;
+}
 
-    to{
-        opacity: 1;
-        transform: translateY(0px);
-    }
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 /*Ipad*/
@@ -281,8 +275,6 @@ i{
     font-size: 1rem;
   }
 
-  
-
   .paraSE {
     color: rgb(115, 102, 75);
     left: 40%;
@@ -294,12 +286,11 @@ i{
     transform: translate(-40%, 210%);
   }
 
-  .cover_img img{
+  .cover_img img {
     display: none;
   }
 
-  .img_SE img{
+  .img_SE img {
     transform: translate(15%, 120%);
   }
-
 }
