@@ -78,7 +78,6 @@
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-
 .img_SE img {
   width: 400px;
   top: -540px;
@@ -218,6 +217,19 @@ i {
   transition: transform 0.5s ease-in;
 }
 
+.admissionFee {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.admissionFee h3 {
+  color: white;
+  font-size: 19px;
+}
 @keyframes fade {
   from {
     opacity: 0;
