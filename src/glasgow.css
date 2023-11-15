@@ -1,6 +1,6 @@
 .img_overlay {
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   background: linear-gradient(
       90deg,
       rgba(252, 252, 252, 0.8),
@@ -14,55 +14,23 @@
 }
 
 .glasgow {
-  width: 80%;
+  width: 70%;
   text-align: center;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 120px;
   line-height: 2;
+
 }
 
 .glasgow p {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .glasgow h2 {
   margin-top: 40px;
 }
 
-.info_container {
-  height: 100%;
-  width: 75%;
-  margin: 0 auto;
-  padding-top: 30px;
-  display: flex;
-  margin-bottom: 80px;
-  justify-content: space-between;
-}
 
-.glasgow_info {
-  width: 30%;
-  margin-top: 1rem;
-  cursor: pointer;
-}
-
-.glasgow_info h3 {
-  text-align: center;
-  color: white;
-}
-
-.glasgow_info p,
-li {
-  padding-left: 10px;
-  padding-right: 10px;
-  color: white;
-}
-
-.admission {
-  border: 0.5px solid rgb(189, 184, 184);
-  border-radius: 10px;
-  padding: 4px;
-  box-shadow: 2px 3px 5px #c5c0c0;
-}
 
 .part1 {
   background-color: rgb(242, 168, 8);
@@ -98,12 +66,19 @@ hr {
 }
 
 .application {
-  width: 75%;
-  height: 30vh;
-  text-align: center;
+  width: 80%; 
   margin: 0 auto;
   line-height: 2;
 }
+.application p{
+  font-size: 17px;
+}
+
+.application li{
+  font-size: 17px;
+}
+
+
 
 .guidance {
   height: 100%;
@@ -137,3 +112,76 @@ hr {
 }
 
 
+
+
+
+
+
+@media screen and (min-width: 700px) and (max-width: 1080px){
+
+.img_overlay {
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient( 90deg, rgba(252, 252, 252, 0.8), rgba(248, 220, 80, 0.8) ), url(https://i0.wp.com/unibuc.ro/wp-content/uploads/2021/02/Civis-Glasgow-UNIBUC-ub-SLIDER.jpg?fit=1920%2C800&ssl=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+}
+
+.guidance {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+  text-align: justify;
+}
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+.guidance {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+    margin-bottom: 20px;
+    display: block;
+    align-items: center;
+}
+
+.img_overlay {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( 90deg, rgba(252, 252, 252, 0.8), rgba(248, 220, 80, 0.8) ), url(https://i0.wp.com/unibuc.ro/wp-content/uploads/2021/02/Civis-Glasgow-UNIBUC-ub-SLIDER.jpg?fit=1920%2C800&ssl=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 0px;
+}
+
+p{
+  text-align: justify;
+}
+
+img{
+  text-align: center;
+  width: 100%;
+}
+.glasgow {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    line-height: 2;
+}
+}
