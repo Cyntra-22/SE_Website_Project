@@ -299,6 +299,8 @@ i {
   font-size: 11px;
 }
 
+
+
   
 }
 
@@ -355,6 +357,10 @@ i {
     display: flex;
     flex-direction: column;
     margin-bottom: 0px;
+}
+
+p{
+  text-align: justify;
 }
    
 }
@@ -417,6 +423,9 @@ i {
   .admissionFee h3 {
     font-size: 15px;
   }
+  p{
+  text-align: justify;
+}
 }
 
 
@@ -426,5 +435,8 @@ i {
   .timetable_img{
     display: none;
   }
+  p{
+  text-align: justify;
+}
 }
 
