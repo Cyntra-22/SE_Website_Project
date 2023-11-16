@@ -3,6 +3,11 @@
    margin: 0 auto;
 }
 
+.fontstyle{
+  font-family: 'Mitr', sans-serif;
+}
+
+
 .content {
   padding-top: 40px; 
 }
@@ -56,24 +61,41 @@ p{
   display: flex;
   justify-content: space-between;
 }
-.question{
+.calculus_question{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.answer{
+.calculus_answer{
     max-height: 0;
     overflow: hidden;
     transition: max-height 1.4s ease-in-out;
 }
-.answer p{
+.calculus_answer p{
     color: black;
     font-size: 17px;
     width: 80%;
 }
-/*
-.faq1.active .answer{
+
+.different_question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.different_answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease-in-out;
+}
+.different_answer p{
+    color: black;
+    font-size: 17px;
+    width: 80%;
+}
+
+.faq1.active .calculus_answer{
     max-height: 400px;
     animation: fade 1s ease-in-out;
 }
@@ -82,17 +104,19 @@ p{
     transform: rotate(180deg);
 }
 
-.faq2.active .answer{
+.faq2.active .different_answer{
     max-height: 400px;
     animation: fade 1s ease-in-out;
 }
 
 .faq2.active i{
     transform: rotate(180deg);
-}*/
+}
 
-.subjectFlex .faq1.active .answer {
-    max-height: 400px;
+
+
+.faq1.active .answer {
+    
     animation: fade 1s ease-in-out;
 }
 
@@ -100,8 +124,8 @@ p{
     transform: rotate(180deg);
 }
 
-.subjectFlex .faq2.active .answer {
-    max-height: 400px;
+.faq2.active .answer {
+    
     animation: fade 1s ease-in-out;
 }
 
@@ -128,7 +152,17 @@ i{
     }
 }
 
-.faq1,.faq2{
+.faq1{
+   
+  margin-right: 20px;
+  margin-left: 20px;
+  border: 1px solid rgb(23, 22, 22);
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.faq2{
    
   margin-right: 20px;
   margin-left: 20px;
@@ -156,7 +190,6 @@ i{
   .SEyearcontainer img{
   width:150px;
 
-
 }
 .heading{
   
@@ -173,6 +206,10 @@ i{
   width: 50%;
   border-bottom: 2px solid rgb(242, 168, 8);
 }
+.subjectFlex{
+  display: block;
+  width: 100%;
+}
 }
 
 @media screen and (min-width: 700px) and (max-width: 1080px) {
@@ -186,6 +223,8 @@ i{
   width: 50%;
   border-bottom: 2px solid rgb(242, 168, 8);
 }
+
+
 
 }
 

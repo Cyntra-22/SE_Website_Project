@@ -77,6 +77,12 @@ button {
   border-radius: 3px;
   margin: 0 auto;
   width: 150px;
+  cursor: pointer;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
 }
 
 .button-container {
@@ -84,5 +90,11 @@ button {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   margin-top: 20px;
+}
+
+.required::before{
+  content: "*";
+  color: red;
+  font-size: 17px;
 }
 

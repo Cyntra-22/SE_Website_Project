@@ -1,4 +1,4 @@
-/*const faqs1 = document.querySelectorAll(".faq1");
+const faqs1 = document.querySelectorAll(".faq1");
 
 faqs1.forEach((faq1) => {
   faq1.addEventListener("click", () => {
@@ -13,9 +13,9 @@ faqs2.forEach((faq2) => {
     faq2.classList.toggle("active");
   });
 });
- */
+ 
 
-const faqs = document.querySelectorAll(".subjectFlex .question");
+/*const faqs = document.querySelectorAll(".subjectFlex .question");
 
 faqs.forEach((faq) => {
   faq.addEventListener("click", () => {
@@ -29,4 +29,4 @@ faqs.forEach((faq) => {
       }
     });
   });
-});
+});*/
