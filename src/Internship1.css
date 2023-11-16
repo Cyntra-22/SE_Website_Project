@@ -1,6 +1,13 @@
+.fontstyle{
+  font-family: 'Mitr', sans-serif;
+}
+
+
+
+
 .parallax {
   /* The image used */
-  background-image: url("https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RiCnLEbDshIAX_GOhiP&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfAoMLeSw9wWjf4iwrJ6XV9qtOEpQbBusrcmPT8ewl8Rkg&oe=652E3E30");
+  background-image: url("https://static.trueplookpanya.com/tppy/member/m_525000_527500/525016/cms/images/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%20I%20love%20KMITL%20(3).JPG");
 
   /* Set a specific height */
   min-height: 800px;
@@ -20,7 +27,7 @@
 
 .parallax1 {
   /* The image used */
-  background-image: url("https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RiCnLEbDshIAX_GOhiP&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfAoMLeSw9wWjf4iwrJ6XV9qtOEpQbBusrcmPT8ewl8Rkg&oe=652E3E30");
+  background-image: url("https://static.trueplookpanya.com/tppy/member/m_525000_527500/525016/cms/images/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%20I%20love%20KMITL%20(3).JPG");
 
   /* Set a specific height */
   min-height: 400px;
@@ -40,7 +47,7 @@
 
 .parallax2 {
   /* The image used */
-  background-image: url("https://scontent.fbkk5-4.fna.fbcdn.net/v/t39.30808-6/327274039_461567732699848_2121112312183412165_n.jpg?stp=dst-jpg_p960x960&_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeEa0bzTI9hm42ac4sEYqeaz9xhQf0fubQ33GFB_R-5tDZlX-TfSjsdjfDlpzxA9Bs3OiCJn6hVRyRUkhgfbpIcY&_nc_ohc=RiCnLEbDshIAX_GOhiP&_nc_ht=scontent.fbkk5-4.fna&oh=00_AfAoMLeSw9wWjf4iwrJ6XV9qtOEpQbBusrcmPT8ewl8Rkg&oe=652E3E30");
+  background-image: url("https://static.trueplookpanya.com/tppy/member/m_525000_527500/525016/cms/images/%E0%B8%A0%E0%B8%B2%E0%B8%9E%E0%B8%9B%E0%B9%89%E0%B8%B2%E0%B8%A2%20I%20love%20KMITL%20(3).JPG");
 
   /* Set a specific height */
   min-height: 900px;
@@ -60,7 +67,7 @@
 
 .img_SE img {
   width: 400px;
-  top: -530px;
+  top: -570px;
   left: 6%;
   position: relative;
   box-shadow: 2px 3px 10px #c5c0c0;
